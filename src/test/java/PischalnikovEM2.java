@@ -6,7 +6,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class SearchTests {
     static {
-        Configuration.holdBrowserOpen = false; // Браузер останется открыт
+        Configuration.holdBrowserOpen = false; // Браузер закроется
     }
 
     @Test
