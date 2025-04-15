@@ -6,7 +6,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class SearchTests {
     static {
-        Configuration.holdBrowserOpen = false; // Браузер должен автоматически закрыться!
+        Configuration.holdBrowserOpen = false; // Браузер закроется
     }
 
     @Test
@@ -16,4 +16,3 @@ public class SearchTests {
         $("[id=r1-0]").shouldHave(text("https://selenide.org"));
     }
 }
-gi
