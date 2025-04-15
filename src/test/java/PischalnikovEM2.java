@@ -16,3 +16,4 @@ public class SearchTests {
         $("[id=r1-0]").shouldHave(text("https://selenide.org"));
     }
 }
+gi
